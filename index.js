@@ -75,7 +75,7 @@ const data = {
     name: chalk.bold.green("@sa1ad"),
     github: chalk.hex('#787878')("https://github.com/s-alad"),
     npx: chalk.hex('#787878')("npx sa1ad"),
-    email: chalk.hex('#787878')("ssalad@skiff.com"),
+    email: chalk.hex('#787878')(""),
     xmr: chalk.hex('#787878')('43y7TPFZzfET5m7J9EUMjzX1Fg2zZTs367nufk5h49Z6F8C7n3BPppr4ZshsmWWxvySnX7LAJLdSRZjFXD9Dydg24gRj36F'),
 
     labelGitHub: chalk.hex('#9E9E9E').bold("git:"),
@@ -90,7 +90,7 @@ const card = boxen(
         ``,
         `${data.labelGitHub} ${data.github}`,
         `${data.labelCard} ${data.npx}`,
-        `${data.labelEmail} ${data.email}`,
+        /* `${data.labelEmail} ${data.email}`, */
         /* `${data.labelXMR} ${data.xmr}`, */
         ``,
         `${chalk("omnia mea mecom porto.")}`,
